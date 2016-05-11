@@ -120,6 +120,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="!internal\Directives.cs" />
+    <Compile Include="PdfSharp.DotNetZip\CommonSrc\CRC32.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\Deflate.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\DeflateStream.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\GZipStream.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\Inflate.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\InfTree.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\Tree.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\Zlib.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\ZlibBaseStream.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\ZlibCodec.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\ZlibConstants.cs" />
+    <Compile Include="PdfSharp.DotNetZip\Zlib\ZlibStream.cs" />
     <Compile Include="PdfSharp.Drawing.BarCodes\DataMatrixImage.cs" />
     <Compile Include="PdfSharp.Drawing.Layout\enums\XParagraphAlignment.cs" />
     <Compile Include="PdfSharp.Drawing.Pdf\enums\DirtyFlags.cs" />
@@ -695,57 +708,6 @@
     <Compile Include="PdfSharp.Pdf\PdfReferenceTable.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Checksums\Adler32.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Checksums\CRC32.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Checksums\IChecksum.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\SharpZip\SharpZipBaseException.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Deflater.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\DeflaterConstants.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\DeflaterEngine.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\DeflaterHuffman.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\DeflaterPending.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Inflater.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\InflaterDynHeader.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\PendingBuffer.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Streams\OutputWindow.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PdfSharp.SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="PdfSharp\ProductVersionInfo.cs" />
     <Compile Include="PdfSharp\enums\PageOrientation.cs">
       <SubType>Code</SubType>
@@ -769,7 +731,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="PdfSharp.SharpZipLib\ReadMe.txt" />
+    <Content Include="PdfSharp.DotNetZip\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PdfSharp.Forms\PagePreview.resx">

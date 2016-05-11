@@ -37,12 +37,6 @@
 // Applies to MigraDoc 1.2 only. The Open Source MigraDoc lite does not need this define.
 #endif
 
-#if NET_ZIP  // obsolete
-// In .NET 2.0 GZipStream is used instead of SharpZipLib
-// This does not work.
-#error Undefine 'NET_ZIP' because it has no effect anymore
-#endif
-
 #if NET_2_0  // obsolete
 #error Undefine 'NET_2_0' because earlier versions are not supported anymore
 #endif
