@@ -27,7 +27,7 @@
 
 using System;
 
-namespace Ionic.Zlib
+namespace PdfSharp.DotNetZip.Ionic.Zlib
 {
     /// <summary>
     /// A class for compressing and decompressing streams using the Deflate algorithm.

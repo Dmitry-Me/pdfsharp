@@ -62,7 +62,7 @@
 
 
 using System;
-namespace Ionic.Zlib
+namespace PdfSharp.DotNetZip.Ionic.Zlib
 {
         
         sealed class InfTree

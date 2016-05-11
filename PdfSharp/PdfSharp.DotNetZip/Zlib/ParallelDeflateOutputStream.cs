@@ -27,11 +27,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Ionic.Zlib;
+using PdfSharp.DotNetZip.Ionic.Zlib;
 using System.IO;
 
 
-namespace Ionic.Zlib
+namespace PdfSharp.DotNetZip.Ionic.Zlib
 {
     internal class WorkItem
     {

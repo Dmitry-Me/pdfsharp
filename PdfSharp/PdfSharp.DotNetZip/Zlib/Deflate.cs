@@ -69,7 +69,7 @@
 
 using System;
 
-namespace Ionic.Zlib
+namespace PdfSharp.DotNetZip.Ionic.Zlib
 {
 
     internal enum BlockState
